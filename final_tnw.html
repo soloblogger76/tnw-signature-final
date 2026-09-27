@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a 1:1 Call With Aman | TNW Signature</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #fff; }
+        .gradient-text {
+            background: linear-gradient(to right, #fff, #a1a1a1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .btn-primary {
+            background: #fff;
+            color: #000;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background: #e5e5e5;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navbar -->
+    <nav class="py-8 px-6 flex justify-center">
+        <img src="https://tnwsignature.com/assets/tnw-logo-CSaLEnV-.png" alt="TNW Signature" class="h-12">
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-4xl mx-auto px-6 py-12 text-center space-y-8">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
+            Build the business <br>
+            <span class="gradient-text italic">that actually scales.</span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 font-light max-w-2xl mx-auto leading-relaxed">
+            Watch the 6-minute breakdown, then secure your 1:1 consultation slot — we'll work on your offer, your funnel and the roadmap to consistent 6-figure months.
+        </p>
+
+        <!-- VSL (Embedded Video) -->
+        <div class="relative w-full aspect-video rounded-3xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-900">
+            <iframe src="https://fast.wistia.net/embed/iframe/0wk5lu14qe" 
+                    class="absolute inset-0 w-full h-full" 
+                    frameborder="0" 
+                    allow="autoplay;fullscreen" 
+                    allowtransparency="true"></iframe>
+        </div>
+
+        <!-- Pricing & CTA -->
+        <div class="py-12">
+            <a href="https://pages.razorpay.com/pl_TNPUuaN5YamBOm/view" class="btn-primary px-10 py-5 rounded-2xl font-bold text-xl inline-flex items-center gap-3 shadow-xl">
+                Secure my consultation slot <i class="fa-solid fa-arrow-right"></i>
+                <span class="ml-4 text-sm font-normal opacity-70">₹299 · 45-min 1:1 with Aman</span>
+            </a>
+            <div class="mt-6 flex flex-wrap justify-center gap-6 text-sm text-slate-500 font-medium">
+                <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-teal-500"></i> Instant booking link</span>
+                <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-teal-500"></i> Adjusted against program fee</span>
+                <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-teal-500"></i> Secure Razorpay checkout</span>
+            </div>
+            <p class="mt-4 text-xs text-slate-600 uppercase tracking-widest">Limited slots each month · UPI · Cards · Net banking</p>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="max-w-4xl mx-auto px-6 py-20 border-t border-slate-900">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <h2 class="text-3xl font-bold">What happens after you pay?</h2>
+                <div class="glass-card p-6 rounded-3xl space-y-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center font-bold">1</div>
+                        <p class="text-lg font-semibold">45-minute 1:1 with Aman</p>
+                    </div>
+                    <p class="text-slate-400 leading-relaxed">
+                        A working session on your offer, funnel and the roadmap to 6-figure months. We dive deep into your current bottlenecks and map out the exact steps to scale.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center md:text-right space-y-6">
+                <div class="text-5xl font-bold mb-2">₹299</div>
+                <p class="text-slate-400">Fully adjusted against your program fee if we decide to work together.</p>
+                <a href="https://pages.razorpay.com/pl_TNPUuaN5YamBOm/view" class="btn-primary px-8 py-4 rounded-xl font-bold inline-block shadow-lg">
+                    Secure Slot Now <i class="fa-solid fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 text-center border-t border-slate-900">
+        <p class="text-slate-600 text-sm">&copy; 2026 TNW Signature. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
